@@ -63,7 +63,7 @@
   
   .recent-posts .post-category {
     font-size: 17px;
-    color: #6f6f6f;
+    color: #052252;
     margin-bottom: 10px;
   }
   
@@ -191,10 +191,10 @@
   }
   
   #schedule .schedule-item .speaker {
-    width: 60px;
-    height: 60px;
+    width: 160px;
+    height: 160px;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: ;
     float: left;
     margin: 0 10px 10px 0;
   }
@@ -262,17 +262,11 @@
   }
 }
 
-#call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 26px;
-  border-radius: 3px;
+#call-to-action img {
+  padding: 8px 20px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #fff;
+  
   color: #fff;
 }
 

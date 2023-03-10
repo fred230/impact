@@ -180,25 +180,6 @@ window.onerror = function(message, url, line, column, error) {
   });
 
 
-  const showFieldsBtn = document.getElementById("show-fields-btn");
-  const moreFieldsDiv = document.getElementById("more-fields");
-  
-  showFieldsBtn.addEventListener("click", function() {
-    if (moreFieldsDiv.style.display === "none") {
-      moreFieldsDiv.style.display = "block";
-      showFieldsBtn.querySelector("i").classList.remove("fa-chevron-down");
-      showFieldsBtn.querySelector("i").classList.add("fa-chevron-up");
-      console.log("clicked11");
-  
-  
-    } else {
-      moreFieldsDiv.style.display = "none";
-      showFieldsBtn.querySelector("i").classList.remove("fa-chevron-up");
-      showFieldsBtn.querySelector("i").classList.add("fa-chevron-down");
-      console.log("clicked");
-    }
-  });
-
 
 
 
