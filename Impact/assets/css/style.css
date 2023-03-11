@@ -1057,6 +1057,20 @@ section {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  /* This will hide the image on screens with a width of 768px or less */
+ 
+  .about-us .content .about-container .about-content img {
+    display: none;
+  }
+
+  .about-us .content  div:last-child {
+    padding: 0 15px 0 25px;
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Our Team
 --------------------------------------------------------------*/

@@ -236,6 +236,11 @@
   margin-bottom: 20px;
  }
 
+ .colmd10 {
+  display: flex;
+  align-items: center;
+}
+
 
  /* Call To Action Section
 --------------------------------*/
